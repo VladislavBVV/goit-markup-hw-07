@@ -216,11 +216,7 @@ cursor: pointer;
 } */
 
 
-.contacts {
-    display: inline-flex;
-    align-items: center;
-    margin-left: auto;
-}
+/* ------------------------Contacts------------------------ */
 
 
 .link {
@@ -237,21 +233,46 @@ cursor: pointer;
 
 
 
+.contacts {
+    display: inline-flex;
+    align-items: center;
+    margin-left: auto;
+}
 
+.contacts__item + .contacts__item {
+    margin-left: 50px;
+}
 
-.mail-link {
+.contacts__icon {
     margin-right: 10px;
+    fill: currentColor;
 
 }
 
+.contacts__icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
 
-.contacts .link {
+
+.contacts__link {
     display: flex;
     align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
     color: #757575;
+    transition: color 250ms var(--timingfunction);
 }
 
-.mailto {
+.contacts__link:hover,
+.contacts__link:focus {
+    color: var(--accent);
+}
+
+/* .mailto {
     display: block;
    
     margin-right: 10px;
@@ -263,26 +284,19 @@ cursor: pointer;
     display: block;
     margin-right: 10px;
     fill: #757575;
-}
-
-
-
-.phone-link {
-    margin-right: 10px;
-    fill: currentColor;
-}
-
-.mail-link {
-    fill: currentColor;
-}
-
-.contacts .item + .item {
-    margin-left: 50px;
-}
+} */
 
 
 
 
+
+
+
+
+
+
+
+/* 
 .icon-mail .link:hover,
 .icon-mail .link:focus {
 color: var(--accent);
@@ -291,7 +305,8 @@ color: var(--accent);
 .icon-phone .link:hover,
 .icon-phone .link:focus {
     color: var(--accent);
-}
+} */
+
 
 
 
