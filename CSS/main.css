@@ -108,6 +108,12 @@ h3 {
   transform: translateY(-50%);
   transition: fill 250ms var(--timingfunction);
 }
+.modal-input:focus + .input-icon {
+  fill: var(--accent);
+}
+.modal-input:hover + .input-icon {
+  fill: var(--accent);
+}
 
 .button-modal-close {
   position: absolute;
@@ -121,9 +127,7 @@ h3 {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
-
-.button-modal-close:hover,
-.button-modal-close:focus {
+.button-modal-close:hover, .button-modal-close:focus {
   fill: #2196F3;
 }
 
@@ -151,18 +155,8 @@ h3 {
   outline: none;
   transition: border-color 250ms var(--timingfunction);
 }
-
-.modal-input:hover,
-.modal-input:focus {
+.modal-input:hover, .modal-input:focus {
   border-color: var(--accent);
-}
-
-.modal-input:hover + .input-icon {
-  fill: var(--accent);
-}
-
-.modal-input:focus + .input-icon {
-  fill: var(--accent);
 }
 
 .modal-label {
