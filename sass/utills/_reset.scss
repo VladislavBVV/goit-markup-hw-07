@@ -1,18 +1,3 @@
-:root {
-    --paragraphtextcolor: #757575;
-    --titletextcolor: #212121;
-    --accent: #2196F3;
-    --cardsbcg: #FFFFFF;
-    --teambcg: #F5F4FA;
-    --headerbgc: #FFFFFF;
-    --herobcg: #2F303A;
-    --solutionsbcg: #FFFFFF;
-    --worksbcg: #FFFFFF;
-    --footerbcg: #2F303A;
-    --timingfunction: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-
 p,
 h1,
 h2,
@@ -61,4 +46,20 @@ h2 {
 h3 {
     margin-top: 0px;
     margin-bottom: 9.4px;
+}
+
+
+
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.link {
+    text-decoration: none;
 }
