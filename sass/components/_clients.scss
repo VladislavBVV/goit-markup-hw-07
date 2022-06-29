@@ -26,6 +26,11 @@ display: flex;
     border:1px solid #AFB1B8; 
     border-radius:4px;
     transition: border-color 250ms var(--timingfunction);
+    &:hover,
+    &:focus {
+    border-color: var(--accent);
+  
+}
 
 }
 
@@ -44,9 +49,4 @@ display: flex;
     
 }
 
-.clients-link:hover,
-.clients-link:focus {
-    border-color: var(--accent);
-  
- 
-}
+
